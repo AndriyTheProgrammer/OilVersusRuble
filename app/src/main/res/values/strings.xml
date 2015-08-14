@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Oil vs Ruble</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="update">Update</string>
+    <string name="oil">Oil</string>
+    <string name="settings">Settings</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="enabled">Enabled</string>
+    <string name="enable_usd_tracking">Enable USD tracking</string>
+    <string name="enable_eur_tracking">Enable EUR tracking</string>
+    <string name="enable_brent_tracking">Enable Brent oil tracking</string>
+    <string name="enable_wti_tracking">Enable WTI oil tracking</string>
+    <string name="save">Save</string>
+    <string name="enable_putin">Enable Putin</string>
+    <string name="history">History</string>
+    <string name="prices">Prices</string>
+    <string name="updates">Updates</string>
+    <string name="rub_for_usd">RUB for USD</string>
+    <string name="rub_for_eur">RUB for EUR</string>
+    <string name="brent_oil" translatable="false">Brent</string>
+    <string name="wti_oil" translatable="false">WTI</string>
+    <string name="uah_for_usd">UAH for USD</string>
+    <string name="uah_for_eur">UAH for EUR</string>
+    <string name="no_info_found">No information found</string>
+
+
+
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="oil_for_usd">OIL_FOR_USD</string>
+
+</resources>

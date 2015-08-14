@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="action_settings">Настройки</string>
+    <string name="oil">Нефть</string>
+    <string name="update">Обновить</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="app_name">Oil  vs  Ruble</string>
+    <string name="title_activity_notify">Notify Activity</string>
+    <string name="enable_eur_tracking">Отслеживание относительно EUR</string>
+    <string name="enable_usd_tracking">Отслеживание относительно USD</string>
+    <string name="enabled">Включено</string>
+    <string name="fullscreen">Полный экран</string>
+    <string name="save">Сохранить</string>
+    <string name="settings">Настройки</string>
+    <string name="title_activity_settings">Экран настроек</string>
+    <string name="enable_putin">Включить Путина</string>
+    <string name="history">График</string>
+    <string name="oil_for_usd">USD за нефть (Brent)</string>
+    <string name="prices">Цены</string>
+    <string name="rub_for_eur">RUB за EUR</string>
+    <string name="rub_for_usd">RUB за USD</string>
+    <string name="uah_for_eur">UAH за EUR</string>
+    <string name="uah_for_usd">UAH за EUR</string>
+    <string name="updates">Количество обновлений</string>
+    <string name="no_info_found">Не найдено информации, нажмите кнопку "Обновить"</string>
+    <string name="enable_wti_tracking">Отслеживание нефти WTI</string>
+    <string name="enable_brent_tracking">Отслеживание нефти Brent</string>
+
+</resources>

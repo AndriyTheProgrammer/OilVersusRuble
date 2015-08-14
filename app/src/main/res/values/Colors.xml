@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rub" type="color">#ffdcecf8</item>
+    <item name="rub_last_prices_1" type="color">#adc3db</item>
+    <item name="rub_last_prices_2" type="color">#909cb3</item>
+    <item name="oil" type="color">#fffffce8</item>
+    <item name="oil_last_prices_1" type="color">#ebe7dc</item>
+    <item name="oil_last_prices_2" type="color">#cbbfa3</item>
+    <item name="uah" type="color">#fff0ffe5</item>
+    <item name="uah_last_prices_1" type="color">#ffd0ebbe</item>
+    <item name="uah_last_prices_2" type="color">#ffa4d2a2</item>
+    <item name="history_color" type="color">#ff6bd268</item>
+
+
+</resources>

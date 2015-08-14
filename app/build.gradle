@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        applicationId "ua.com.oilversusruble.oilversusruble"
+        minSdkVersion 9
+        targetSdkVersion 21
+        versionCode 16
+        versionName "3.1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/jsoup-1.8.1.jar')
+    compile files('libs/mobclix.jar')
+    compile files('libs/AdBuddiz-2.3.4.jar')
+    compile files('libs/tapjoyconnectlibrary.jar')
+    compile 'com.google.android.gms:play-services:6.1.71'
+    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile files('libs/achartengine-1.1.0.jar')
+}

@@ -1,0 +1,277 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ua.com.oilversusruble.oilversusruble.SettingsActivity"
+    android:orientation="vertical"
+    android:background="#ffd2e3f8">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/save"
+        android:id="@+id/btnSave"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fullscreen"
+                    android:id="@+id/cbFullScreen"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enable_putin"
+                    android:id="@+id/cbEnablePutin"
+                    android:layout_weight="1"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rub_back"
+                    android:id="@+id/rubLayout1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rub_back_sw"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:layout_marginTop="1dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="RUB"
+                            android:id="@+id/textView9"
+                            android:textColor="#ff000000"
+                            android:layout_marginLeft="5dp" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enabled"
+                        android:id="@+id/cbRubEnabled"
+                        android:checked="true"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="17sp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/enable_usd_tracking"
+                                android:id="@+id/cbRubUsdTracking"
+                                android:checked="true"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/enable_eur_tracking"
+                                android:id="@+id/cbRubEurTracking"
+                                android:checked="true"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/oil_back"
+                    android:id="@+id/oilLayout1"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/oil_back_sw"
+                        android:padding="2dp"
+                        android:gravity="center"
+                        android:layout_marginTop="1dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/oil"
+                            android:id="@+id/textView95"
+                            android:textColor="#ff000000"
+                            android:layout_marginLeft="5dp" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enabled"
+                        android:id="@+id/cbOilEnabled"
+                        android:checked="true"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_marginTop="15dp" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal" >
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enable_brent_tracking"
+                            android:id="@+id/cbBrentTracking"
+                            android:checked="true"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enable_wti_tracking"
+                            android:id="@+id/cbWtiTracking"
+                            android:checked="true"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/uah_back"
+                android:visibility="visible"
+                android:id="@+id/uahLayout1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/uah_back_sw"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="UAH"
+                        android:id="@+id/textView96"
+                        android:textColor="#ff000000"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enabled"
+                    android:id="@+id/cbUahEnabled"
+                    android:checked="true"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enable_usd_tracking"
+                            android:id="@+id/cbUahUsdTracking"
+                            android:checked="true"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enable_eur_tracking"
+                            android:id="@+id/cbUahEurTracking"
+                            android:checked="true"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/containerForAds">
+
+    </FrameLayout>
+
+</LinearLayout>
